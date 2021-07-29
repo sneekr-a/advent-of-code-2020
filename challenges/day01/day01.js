@@ -6,9 +6,7 @@ apparently, something isn't quite adding up.
 Specifically, they need you to find the two entries that sum to 2020 and then multiply those two numbers together.
 */
 
-const fs = require('fs')
 const dataToInt = require('../modules/datatoint.js')
-const binarySearch = require('../modules/binarysearch.js')
 
 const data = dataToInt();
 
